@@ -83,6 +83,6 @@ func main() {
 		Article{Id: "1", Title: "Hello", Desc: "Article Description", Content: "Article Content"},
 		Article{Id: "2", Title: "Hello 2", Desc: "Article Description", Content: "Article Content"},
 	}
-	//handleRequests()
-	fmt.Println(Articles)
+	handleRequests()
+
 }
